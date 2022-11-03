@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @seriado %>
+
+<div>
+  <%= link_to "Edit this seriado", edit_seriado_path(@seriado) %> |
+  <%= link_to "Back to seriados", seriados_path %>
+
+  <%= button_to "Destroy this seriado", @seriado, method: :delete %>
+</div>
